@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns="http://java.sun.com/xml/ns/javaee" 
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" 
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" 
+id="WebApp_ID" version="3.0">
+  <display-name>BalaHazakweb</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>BalAdminLogin</servlet-name>
+    <servlet-class>servlets.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ManageChangableContent</servlet-name>
+    <servlet-class>servlets.ManageChangableContent</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ServePHP</servlet-name>
+    <servlet-class>servlets.ServePHP</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SendMail</servlet-name>
+    <servlet-class>servlets.SendMail</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DocumentServlet</servlet-name>
+    <servlet-class>servlets.DocumentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DataServlet</servlet-name>
+    <servlet-class>servlets.DataServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BalAdminLogin</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ManageChangableContent</servlet-name>
+    <url-pattern>/ManageChangableContent</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServePHP</servlet-name>
+    <url-pattern>/ServePHP</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SendMail</servlet-name>
+    <url-pattern>/SendMail</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DocumentServlet</servlet-name>
+    <url-pattern>/Document</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DataServlet</servlet-name>
+    <url-pattern>/Data</url-pattern>
+  </servlet-mapping>
+</web-app>

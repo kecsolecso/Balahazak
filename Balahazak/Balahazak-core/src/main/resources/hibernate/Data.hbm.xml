@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="hb.Data" table="data">
+		<id column="ID" name="id" type="java.lang.Integer">
+			<generator class="identity" />
+		</id>
+		<property column="email" length="64" name="email" type="java.lang.String"/>
+		<property column="address" length="128" name="address" type="java.lang.String"/>
+		<property column="phone" length="32" name="phone" type="java.lang.String"/>
+		<property column="tel" length="32" name="tel" type="java.lang.String"/>
+	</class>
+</hibernate-mapping>

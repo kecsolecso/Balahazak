@@ -1,0 +1,132 @@
+@CHARSET "UTF-8";
+
+
+body{
+	background-color: #DFDFDF;
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+	/*width:100%*/
+}
+.main_table{
+	width:1024px;
+	padding:0;
+	margin:0 auto;
+	border-spacing: 0.5px;
+	/*border:1px solid black;*/
+	/*text-align:center;*/
+}
+td.logo{
+	height: 98px;
+	width: 250px;
+	background-color: #656565;
+	color: white;
+	font-weight: bold;
+	padding:0;
+	margin:0;
+	/*background-image: url("../img/BH_alap.jpg")*/
+}
+.menu_horisontal{
+	background-image: url("../img/Top-menu.png");
+	height:98px;
+	padding:0;
+	width: 774;
+}
+ul{
+	list-style-type: none;
+	list-style: none;
+	padding:0;
+	margin:0;
+}
+ul.horisontal{
+	height:98px;
+}
+a{
+	text-decoration: none;
+	display: block;
+	padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    font-size: 1em;
+}
+a.logo{
+	line-height: 100px;
+}
+a.horisontal{
+	background-image: url("../img/menu_divider_2.png");
+	background-repeat: no-repeat;
+	background-position: right top;
+    font-size: 12px;
+    font-weight:bold;
+    line-height: 100px;
+}
+ul a:hover{
+	color: #5a5a5a;
+}
+ul.horisontal li{
+	float: left;
+	height: 100%;
+}
+ul.vertical li{
+	line-height:60px;
+}
+ul.vertical li a{
+	background-repeat: repeat-x;
+	height:60px;
+	margin:0;
+}
+a.vertical_green_menu{
+	background-image: url("../img/vertical_green_menu.png");
+}
+a.vertical_light-green_menu{
+	background-image: url("../img/vertical_light-green_menu.png");
+}
+a.vertical_blue_menu{
+	background-image: url("../img/vertical_blue_menu.png");
+}
+a.vertical_light-blue_menu{
+	background-image: url("../img/vertical_light-blue_menu.png");
+}
+a.vertical_yellow_menu{
+	background-image: url("../img/vertical_yellow_menu.png");
+}
+a.vertical_light-yellow_menu{
+	background-image: url("../img/vertical_light-yellow_menu.png");
+}
+a.vertical_purple_menu{
+	background-image: url("../img/ANNA_RED_1.png");
+}
+a.vertical_light-purple_menu{
+	background-image: url("../img/ANNA_RED_1a.png");
+}
+a span.top{
+	display:block;
+	line-height:15px;
+	padding-top:15px;
+	font-size:1.3em;
+}
+a span.bottom{
+	display:block;
+	line-height:15px;
+	font-size:.8em;
+	padding-bottom:15px;
+}
+td.menu_vertical{
+	width:250px;
+	padding:0;
+}
+.content{
+	background-image: url("../img/header_pic.png");
+	background-repeat: no-repeat;
+}
+td.admin_menu{
+	width:100px;
+	background-color:#0D93F3;
+	vertical-align:top;
+}
+td.admin_content{
+	width:924;
+	vertical-align:top;
+}
+#div_footer{
+	display:none;
+}

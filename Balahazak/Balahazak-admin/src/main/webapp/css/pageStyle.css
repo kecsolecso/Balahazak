@@ -1,0 +1,181 @@
+/*
+Version:   1.0
+Released:  2007-12-29
+Author:    Kecse-Nagy Csaba (kecsó)
+*/
+html{
+    
+    height: 100%;
+}
+
+body {
+    height:100%;
+    overflow: auto;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+input, select,textarea{
+    font-size: 1em;
+    font-family: inherit;
+    border: 1px solid #666666;
+}
+input.text {
+    border: 1px solid #999999;
+}
+input.chkbox-w13 {
+    margin: 0;
+    vertical-align: middle;
+}
+td {
+    color:#5a5a5a;
+}
+
+td.basic-bold {
+    font-weight: bold;
+    color:#5a5a5a;
+}
+
+td.white-bold {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #FFFFFF;
+}
+td.white-bold:hover {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+div.white-bold{
+    font-weight: bold;
+    font-size: 0.9em;
+    color: #FFFFFF;
+    text-align: right;
+}
+
+a.basic-normal-a {
+    color: #5a5a5a;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+a.basic-normal-a:hover {
+    font-weight: normal;
+    font-style: normal;
+    color: black;
+    text-decoration: none;
+}
+a.basic-normal-a:visited {
+    font-weight: normal;
+    font-style: normal;
+    color: #5a5a5a;
+    text-decoration: underline;
+}
+
+a.basic-bold-a { 
+    font-weight: bold;
+    color:#5a5a5a;
+    text-decoration: none;
+}
+a.basic-bold-a:hover {
+    font-weight: bold;
+    font-style: normal;
+    color: black;
+    text-decoration: none;
+}
+a.basic-bold-a:visited {
+    font-weight: bold;
+    font-style: normal;
+    color: #840084;
+    text-decoration: underline;
+}
+a.white-bold {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-right: 8px;
+}
+a.white-bold:hover { 
+    color: #000000;
+}
+
+a.neutral-bold-9 { 
+    font-size: .9em;
+    font-weight: bold;
+    color:#5a5a5a;
+}
+a.neutral-bold-9:hover {
+    color:red;
+    text-decoration: underline;
+}
+
+a.language { 
+    font-weight: bold;
+    color:#ffffff;
+    text-decoration:none
+}
+a.language:hover {
+    color:#f4f4f4;
+    text-decoration: underline;
+}
+
+.basic-w115 {
+    font-weight: bold;
+    background-color:#b8cadc;
+    color:#000000;
+}
+.basic-w115-disable {
+    font-weight: bold;
+    background-color:white;
+    color:grey;
+}
+
+.textbackground { background-image: url("images/textbackground.jpg");background-repeat: no-repeat;}
+
+.page_header{
+    padding: 0px;
+    border-spacing: 0px;
+    border-width: 0px;
+    width: 100%;
+    height: 40px;
+    background-image: url('../img/headerBg2.jpg');
+    background-color:#7490C2;
+    background-repeat: no-repeat;
+}
+
+.absolute_body{
+    display: block;
+    position: absolute;
+    height:auto;
+    bottom:0;
+    top:0;
+    left:0;
+    right:0;
+    margin: 0px 0px 0px 0px;
+    overflow: hidden;
+}
+.absolute_div{
+    display: block;
+    position: absolute;
+    height:auto;
+    width:auto;
+    overflow: auto;
+    bottom:0;
+    top:60px;
+    left:0;
+    right:0;
+    margin: 8px 8px 8px 8px;
+}
+.vertical_middle{
+    vertical-align:middle;
+}
+
+.box_sizing{
+    box-sizing: border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing: border-box;
+}

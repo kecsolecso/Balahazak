@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="hb.Admin" table="admin">
+		<id column="ID" name="id" type="java.lang.Integer">
+			<generator class="identity" />
+		</id>
+		<property column="name" length="128" name="name" type="java.lang.String"/>
+		<property column="username" length="128" name="username" type="java.lang.String"/>
+		<property column="password" length="256" name="password" type="java.lang.String"/>
+	</class>
+</hibernate-mapping>
