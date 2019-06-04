@@ -7,7 +7,7 @@ public class MailSender {
 	private static final int port1 = 465;
 	//private static final int port2 = 587;
 	private static final String user = "kkbalatoni@gmail.com";
-	private static final String password = "balahazak";
+	private static final String password = "balahayak";
 	private static final String from = "kkbalatoni@gmail.com";
 	private static final String fromName = "Balaházak";
 	private static final String to = "kkbalatoni@gmail.com";
